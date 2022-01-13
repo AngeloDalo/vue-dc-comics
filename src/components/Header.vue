@@ -25,7 +25,7 @@ export default {
     name: 'Header',
      data () {  //funzione che restituisce object
         return {
-            title: "Lorem Ipsum"
+    
         }
     },
     created () {
@@ -40,6 +40,7 @@ export default {
     display: flex;
     align-items: center;
     height: 107px;
+    min-width: 1143px;
     .image {
         width: 20%;
     }
@@ -48,7 +49,6 @@ export default {
         height: 100%;
         display: flex;
         justify-content: flex-end;
-        flex-wrap: wrap;
         list-style: none;
             li {
                 line-height: 5em;
