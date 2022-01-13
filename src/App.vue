@@ -4,11 +4,13 @@
     <Header />
     <Main />
     <Footer />
+    <Contact />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import Contact from "./components/Contact.vue";
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import Footer from "./components/Footer.vue";
@@ -20,6 +22,7 @@ export default {
     Header,
     Main,
     Footer,
+    Contact,
   },
 };
 </script>
