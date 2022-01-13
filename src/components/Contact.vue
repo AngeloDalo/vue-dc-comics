@@ -4,11 +4,11 @@
             <button>SIGN-UP NOW!</button>
             <ul>
                 <li>FOLLOW US</li>
-                <li><a href="#"><img src="../assets/img/footer-facebook.png" alt=""></a></li>
-                <li><a href="#"><img src="../assets/img/footer-twitter.png" alt=""></a></li>
-                <li><a href="#"><img src="../assets/img/footer-youtube.png" alt=""></a></li>
-                <li><a href="#"><img src="../assets/img/footer-pinterest.png" alt=""></a></li>
-                <li><a href="#"><img src="../assets/img/footer-periscope.png" alt=""></a></li>
+                <li><a href="#"><img src="../assets/img/footer-facebook.png" alt="facebook-logo"></a></li>
+                <li><a href="#"><img src="../assets/img/footer-twitter.png" alt="twitter-logo"></a></li>
+                <li><a href="#"><img src="../assets/img/footer-youtube.png" alt="youtube-logo"></a></li>
+                <li><a href="#"><img src="../assets/img/footer-pinterest.png" alt="pinterest-logo"></a></li>
+                <li><a href="#"><img src="../assets/img/footer-periscope.png" alt="periscope-logo"></a></li>
             </ul>
         </div>
     </div>

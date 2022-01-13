@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <img src="../assets/img/dc-logo-bg.png" alt="">
+        <img src="../assets/img/dc-logo-bg.png" alt="dc-logo">
         <div class="container">
             <div class="link-dc-shop">
                 <ul>

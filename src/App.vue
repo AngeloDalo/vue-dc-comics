@@ -3,6 +3,7 @@
     <HelloWorld msg="" />
     <Header />
     <Main />
+    <Connections />
     <Footer />
     <Contact />
   </div>
@@ -14,6 +15,7 @@ import Contact from "./components/Contact.vue";
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import Footer from "./components/Footer.vue";
+import Connections from "./components/Connections.vue";
 
 export default {
   name: "App",
@@ -23,6 +25,7 @@ export default {
     Main,
     Footer,
     Contact,
+    Connections,
   },
 };
 </script>
@@ -34,6 +37,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 5px;
 }
 </style>
