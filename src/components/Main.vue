@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="container up">
-            <p>--> Content goes here</p>
+            <p>--> Content goes here </p>
         </div>
         <div class="container down">
             <ul>
