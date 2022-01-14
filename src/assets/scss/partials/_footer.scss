@@ -1,0 +1,33 @@
+@mixin image ($right, $height) {
+    img {
+        position: absolute;
+        right: $right;
+        height: $height;
+    }
+}
+
+@mixin container ($padding-t, $padding-b, $margin-r, $margin-b, $font-s, $margin2-b, $font2-s) {
+    .container {
+        display: flex;
+        padding-top: $padding-t;
+        padding-bottom: $padding-b;
+        div {
+            margin-right: $margin-r;
+            ul {
+                list-style: none;
+                margin-bottom:  $margin-b;
+                li:first-child {
+                    color: white;
+                    font-size: $font-s;
+                    font-weight: bold;
+                    margin-bottom: $margin2-b;
+                }
+                li a {
+                    color: grey;
+                    text-decoration: none;
+                    font-size: $font2-s;
+                }
+            }
+        }
+    }
+}

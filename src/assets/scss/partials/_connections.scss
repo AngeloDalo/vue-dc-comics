@@ -1,4 +1,4 @@
-@mixin down ($justify-c, $list-s, $aling-i, $font-s, $font-w, $margin-f) {
+@mixin down ($justify-c, $list-s) {
     .down {
         ul {
             display: flex;
@@ -7,19 +7,6 @@
             width: 100%;
             list-style: $list-s;
             padding: 3em;
-            li {
-                display: flex;
-                align-items: $aling-i;
-                img {
-                    width: calc(100% / 5);
-                }
-                span {
-                    color: white;
-                    font-size: $font-s;
-                    font-weight: $font-w;
-                    margin-left: $margin-f;
-                }
-            }
         }
     }
 }

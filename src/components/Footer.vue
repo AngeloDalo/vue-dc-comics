@@ -64,38 +64,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/partials/_footer.scss";
 footer {
     position: relative;
-    img {
-        position: absolute;
-        right: 200px;
-        height: 100%;
-    }
     background-image: url("../assets/img/footer-bg.jpg");
     background-position: center;
     background-size: contain;
-    .container {
-        display: flex;
-        padding-top: 2em;
-        padding-bottom: 3em;
-        div {
-            margin-right: 1.5em;
-            ul {
-                list-style: none;
-                margin-bottom: 1em;
-                li:first-child {
-                    color: white;
-                    font-size: 1em;
-                    font-weight: bold;
-                    margin-bottom: 1em;
-                }
-                li a {
-                    color: grey;
-                    text-decoration: none;
-                    font-size: 0.8em;
-                }
-            }
-        }
-    }
+    @include image (200px, 100%);
+    @include container (2em, 3em, 1.5em, 1em, 1em, 1em, 0.8em);
 }
 </style>

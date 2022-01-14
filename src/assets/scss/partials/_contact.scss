@@ -1,0 +1,27 @@
+@mixin container () {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button {
+            background-color: $greyDC;
+            color: white;
+            border: 4px solid $heavenlyDC;
+            padding: 1em;
+            cursor: pointer;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            li:first-child {
+                color: $heavenlyDC;
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+            li {
+                margin-left: 1em;
+            }
+        }
+    }
+}
