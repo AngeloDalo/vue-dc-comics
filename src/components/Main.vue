@@ -112,50 +112,10 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/partials/_variables.scss";
+@import "../assets/scss/partials/_main.scss";
 main {
-    .jumbotron {
-        width: 100%;
-        height: 400px;
-        background-image: url(../assets/img/jumbotron.jpg);
-        background-position: center;
-        background-position-y: initial;
-        position: relative;
-        .current-series {
-            height: 50px;
-            color: white;
-            font-weight: bold;
-            position: absolute;
-            bottom: -1.5em;
-            left: 7em;
-            line-height: 3em;
-            text-align: center;
-            width: 200px;
-            background-color: $heavenlyDC;
-        }
-    }
+    @include jumbotron (400px, center, initial, bold, -1.5em, 7em, 3em, center);
     background-color: black;
-    .container {
-        margin-top: 2em;
-        color: white;
-        padding-bottom: 1em;
-        .container-titles {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            .title {
-                margin: 1em;
-                width: calc((100% / 8));
-            }
-        }
-        text-align: center;
-        .load-more {
-            background-color: $heavenlyDC;
-            color: white;
-            width: 150px;
-            height: 50px;
-            font-weight: bold;
-        }
-    }
+    @include container (2em, 1em, wrap, space-between, 1em, center, 150px, 50px, bold);
 }
 </style>

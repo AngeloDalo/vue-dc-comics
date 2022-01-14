@@ -1,0 +1,48 @@
+@mixin jumbotron ($height, $bg-p, $bg-p-y, $fw-b, $bottom, $left, $line-h, $text-a) {
+    .jumbotron {
+        width: 100%;
+        height: $height;
+        background-image: url(../assets/img/jumbotron.jpg);
+        background-position: $bg-p;
+        background-position-y: $bg-p-y;
+        position: relative;
+        .current-series {
+            height: 50px;
+            color: white;
+            font-weight: $fw-b;
+            position: absolute;
+            bottom: $bottom;
+            left: $left;
+            line-height: $line-h;
+            text-align: $text-a;
+            width: 200px;
+            background-color: $heavenlyDC;
+        }
+    }
+}
+
+@mixin container ($margin-t, $padding-b, $flex-w, $justift-c, $margin, $text-a, $width, $height, $font-w) {
+    .container {
+        margin-top: $margin-t;
+        color: white;
+        padding-bottom: $padding-b;
+        .container-titles {
+            width: 100%;
+            display: flex;
+            flex-wrap: $flex-w;
+            justify-content: $justift-c;
+            .title {
+                margin:  $margin;
+                width: calc((100% / 8));
+            }
+        }
+        text-align:  $text-a;
+        .load-more {
+            background-color: $heavenlyDC;
+            color: white;
+            width: $width;
+            height: $height;
+            font-weight: $font-w;
+        }
+    }
+}
