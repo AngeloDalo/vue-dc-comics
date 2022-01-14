@@ -20,4 +20,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.title img {
+  width: 100%;
+}
+.title h2 {
+  width: 100%;
+  font-size: 1.3em;
+}
 </style>

@@ -13,6 +13,7 @@
                     :title="product.series" 
                 />
             </div>
+            <button class="load-more">LOAD-MORE</button>
         </div>
     </main>
 </template>
@@ -141,15 +142,20 @@ main {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
-            justify-content: initial;
+            justify-content: space-between;
             .title {
                 margin: 1em;
-                width: calc((100% / 6));
+                width: calc((100% / 8));
             }
         }
-    }
-    .container-up .container-titles .title .title-image {
-        width: 100%;
+        text-align: center;
+        .load-more {
+            background-color: $heavenlyDC;
+            color: white;
+            width: 150px;
+            height: 50px;
+            font-weight: bold;
+        }
     }
 }
 </style>
