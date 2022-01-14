@@ -36,37 +36,10 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/partials/_variables.scss";
+@import "../assets/scss/partials/_header.scss";
 .container {
-    display: flex;
-    align-items: center;
-    height: 107px;
-    min-width: 1143px;
-    .image {
-        width: 20%;
-    }
-    ul {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-end;
-        list-style: none;
-            li {
-                line-height: 5em;
-                display: block;
-                padding: 0.8em;
-                height: 100%;
-                a {
-                    font-weight: bold;
-                    font-size: 0.8em;
-                    display: block;
-                    text-decoration: none;
-                    color: black;
-                }
-                &:hover,
-                &:active {
-                    border-bottom: 5px solid $heavenlyDC;
-                }   
-            }
-    }   
+    @include base-scss (107px, 1143px, center);
+    @include image (20%);
+    @include list(flex-end, none, bold, none);   
 }
 </style>

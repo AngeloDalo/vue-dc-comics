@@ -1,0 +1,41 @@
+@mixin base-scss ($height, $min_width, $align) {
+    display: flex;
+    align-items: $align;
+    height: $height;
+    min-width: $min_width;
+}
+
+@mixin image ($width) {
+    .image {
+        width: $width;
+    }
+}
+
+@mixin list ($justify, $list, $f-weight, $t-decoration) {
+    ul {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: $justify;
+        list-style: $list;
+            li {
+                line-height: 5em;
+                display: block;
+                padding: 0.8em;
+                height: 100%;
+                a {
+                    font-weight:  $f-weight;
+                    font-size: 0.8em;
+                    display: block;
+                    text-decoration: $t-decoration;
+                    color: black;
+                }
+                &:hover,
+                &:active {
+                    border-bottom: 5px solid $heavenlyDC;
+                }   
+            }
+    }
+}
+
+
