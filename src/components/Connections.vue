@@ -26,27 +26,27 @@ export default {
         return {
             connections_type: [
                 {
-                    "surce": "../asset/img/buy-comics-digital-comics.png",
+                    "surce": require("../assets/img/buy-comics-digital-comics.png"),
                     "alt": "buy-comics-digital-comics.png",
                     "title": "DIGITAL COMICS"
                 },
                 {
-                    "surce": "../assets/img/buy-comics-merchandise.png",
+                    "surce": require("../assets/img/buy-comics-merchandise.png"),
                     "alt": "buy-comics-merchandise.png",
                     "title": "DC-MERCHANDISE" 
                 },
                 {
-                    "surce": "../assets/img/buy-comics-subscriptions.png",
+                    "surce": require("../assets/img/buy-comics-subscriptions.png"),
                     "alt": "buy-comics-subscriptions.png",
                     "title": "SUBSCRIPTION" 
                 },
                 {
-                    "surce": "../assets/img/buy-comics-shop-locator.png",
+                    "surce": require("../assets/img/buy-comics-shop-locator.png"),
                     "alt": "buy-comics-shop-locator.png",
                     "title": "COMIC SHOP LOCATOR" 
                 },
                 {
-                    "surce": "../assets/img/buy-dc-power-visa.svg",
+                    "surce": require("../assets/img/buy-dc-power-visa.svg"),
                     "alt": "buy-dc-power-visa.svg.png",
                     "title": "DC POWER-VISA" 
                 }
