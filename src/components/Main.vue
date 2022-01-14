@@ -1,5 +1,8 @@
 <template>
     <main>
+        <div class="jumbotron">
+            <div class="current-series">CURRENT-SERIES</div>
+        </div>
         <div class="container up">
             <div class="container-titles">
                 <MainTitles
@@ -109,9 +112,29 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/partials/_variables.scss";
 main {
-    padding-top: 2em;
+    .jumbotron {
+        width: 100%;
+        height: 400px;
+        background-image: url(../assets/img/jumbotron.jpg);
+        background-position: center;
+        background-position-y: initial;
+        position: relative;
+        .current-series {
+            height: 50px;
+            color: white;
+            font-weight: bold;
+            position: absolute;
+            bottom: -1.5em;
+            left: 7em;
+            line-height: 3em;
+            text-align: center;
+            width: 200px;
+            background-color: $heavenlyDC;
+        }
+    }
     background-color: black;
     .container {
+        margin-top: 2em;
         color: white;
         padding-bottom: 1em;
         .container-titles {
