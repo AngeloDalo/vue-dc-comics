@@ -43,31 +43,10 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/partials/_variables.scss";
+@import "../assets/scss/partials/_connections.scss";
 .connections {
     width: 100%;
     background-color: blue;
-    .down {
-        ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            width: 100%;
-            list-style: none;
-            padding: 3em;
-            li {
-                display: flex;
-                align-items: center;
-                img {
-                    width: calc(100% / 5);
-                }
-                span {
-                    color: white;
-                    font-size: 0.8em;
-                    font-weight: bold;
-                    margin-left: 0.5em;
-                }
-            }
-        }
-    }
+    @include down (center, none, center, 0.8em, bold, 0.5em);
 }
 </style>
