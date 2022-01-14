@@ -20,7 +20,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/scss/partials/_connections.scss";
     li {
         display: flex;
         align-items: center;
